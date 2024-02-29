@@ -1,0 +1,8 @@
+@tailwind base;
+@layer base {
+  input {
+    @apply bg-transparent border-2 dark:border-slate-50 border-slate-950 rounded-md p-1 dark:focus:border-emerald-600 focus-visible:outline-none;
+  }
+}
+@tailwind components;
+@tailwind utilities;
